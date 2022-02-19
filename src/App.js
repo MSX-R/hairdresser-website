@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <Nav />
+      <main className="main">
+        <h1>Accueil</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
+        </p>
+      </main>
     </div>
   );
 }
