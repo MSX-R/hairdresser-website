@@ -39,6 +39,7 @@ console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
         <button className="navbar_burger" onClick={handleShowLinks}>
             <span className="burger-bar"></span>
         </button>
+        <button className="take-a-book">Prendre RDV</button>
     </nav>
   )
 }
