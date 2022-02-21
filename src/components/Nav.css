@@ -3,26 +3,30 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
-    min-height: 75px;
+    height: 100px;
     padding : 1rem;
-    background-color: #000;
+    background: #0d0d0d ;
+    border-bottom: 2px solid #a27e40;
     color: #fff;
 }
 
 .navbar_links{
 display: flex;
+
 }
 
 .navbar_link {
     padding: 0 1rem;
     color: inherit;
+    font-weight: bold;
+font-size: 1.2rem;
 }
 
 .navbar_link:hover {
     color: goldenrod;
-    font-weight: bold;
+
 }
 
 .navbar_burger {
@@ -37,11 +41,11 @@ display: flex;
 
 .btn-rdv{
     display : block;
-    color: #000;
+    color: #fff;
     width: fit-content;
-    padding: 0.1rem 1.5rem;
-    border-radius: 15px;
-    background-color: #fff;
+    padding: 0.5rem 1.2rem;
+    background: #0d0d0d ;
+    border: 1.5px solid #a27e40;    
 
 }
 
@@ -55,19 +59,29 @@ display: flex;
     width: 70px;
     /* border: 2px solid red; */
     margin: 0;
+    border-radius: 50%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
+    
+    .navbar {
+        position:fixed;
+        height: 75px;
+        display : flex;
+        flex-direction: column;
+
+    }
+    
     .navbar_links {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: fixed;
-
+/* top : 0px; */
         right: -100vw;
         bottom: 0;
         height: 100vh;
-        padding: 2rem;
+        padding: 0.3rem;
         background-color: #000;
         visibility:hidden;
         transition: all .8s ease-in-out;
@@ -95,8 +109,9 @@ display: flex;
 /*Fin Partie : Ajout barre sous Item Menu Mobile*/
     .navbar_link {
         display: block;
-        padding: 1.5rem;
+        padding: 2rem;
         font-size: 5vw;
+        font-size: 1.5rem;
     }
 
     .navbar_burger {

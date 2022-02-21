@@ -1,16 +1,38 @@
 .page{
-    margin-top: 75px;
     display: flex;
     flex-direction: column;
-
 }
 
-.salon-pic {
-   width: 100%;
-   max-height: 100vh;
-}
+.bande-photo {
+width: 100%;
+height: calc(100vh - 91px); /* 75px de nav + 16px padd nav*/
+object-fit: cover;
+min-height: 100vh; }
+
+
+
 
 .home {
-padding: 20px 10%;  
 text-align:left;  
+}
+
+.home > h3 {
+    margin: 0.8rem 0;
+    font-size: 1.4rem;
+    color : #c29d5e;
+}
+
+.home > p {
+    text-align: justify;
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .salon-pic {
+        width: cover;
+        height: 100vh;
+        object-fit: cover;
+     }
+
 }

@@ -1,0 +1,25 @@
+.table {
+    border: 2px solid #a27e40;
+    padding: 2rem;
+
+}
+
+
+.titres-th {
+    color: #b9975b;
+    border: 2px solid #a27e40;
+    font-size : 1.4rem;
+}
+
+.colonne-prestations {
+text-align: left;
+}
+
+.colonne-prix {
+    text-align: right;
+}
+
+
+.prix {
+    text-align: right;
+}

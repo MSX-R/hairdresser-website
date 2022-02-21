@@ -3,21 +3,9 @@ import React from 'react'
 function Book() {
   return (
 <div className="main">
-        <h1>PAGE Accueil</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
+        <h1>La Hair'Style Gallery</h1>
+        <p>Dans cette partie, vous retrouverez quelques inspirations provenants de coupes réalisées sur des clients de notre salon.</p>
+        
       </div>  )
 }
 
