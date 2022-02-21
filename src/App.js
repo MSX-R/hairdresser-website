@@ -1,27 +1,25 @@
 import './App.css';
 import Nav from './components/Nav';
+import { Routes, Route } from "react-router-dom";
+// import des pages
+import Home from './screens/Home';
+import LeSalon from './screens/LeSalon';
+import Book from './screens/Book';
+import Prestations from './screens/Prestations';
+import About from './screens/About';
+// 
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <main className="main">
-        <h1>Accueil</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/le-salon" element={<LeSalon />} />
+        <Route path="/book" element={<Book />} />
+        <Route path="/prestations" element={<Prestations />} />
+        <Route path="/a-propos" element={<About />} />
+      </Routes>
     </div>
   );
 }

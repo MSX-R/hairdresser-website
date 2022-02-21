@@ -35,10 +35,26 @@ display: flex;
      /*masquage du bouton en grand écran voir display block dans media screen*/
 }
 
-.take-a-book {
+.btn-rdv{
     display : block;
+    color: #000;
     width: fit-content;
-    padding: .3rem;
+    padding: 0.1rem 1.5rem;
+    border-radius: 15px;
+    background-color: #fff;
+
+}
+
+.btn-rdv:hover{
+    color: white;
+    background: #a27e40;
+    font-weight: normal;
+}
+
+.navbar_logo {
+    width: 70px;
+    /* border: 2px solid red; */
+    margin: 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -167,5 +183,18 @@ right: 1rem;
 .take-a-book {
     display : none;
 }
+
+.btn-rdv{
+    display : none;
+}
+
+.navbar_logo {
+    width: 50px;
+    display: block;
+    position: fixed;
+    top: 0.8rem;
+    left: 1rem
+}
+
 
 }

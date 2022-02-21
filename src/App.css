@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;200;300');
 
+/* Code couleur à mettre en variable
+
+Couleur barre nav : #0d0d0d#a27e40
+Couleur bouton titre , soulignement encadrement,  : 
+couleur ecriture paragraphe et icones contact 3 : #fff
+https://taylortaylorlondon.com/ INSPIRATION
+*/
+
+
 * {
   box-sizing: border-box;
   margin : 0;
@@ -29,8 +38,25 @@ a {
   text-decoration: none;
 }
 
-.main {
-  min-height: 200vh;
-  padding: 6rem 1rem 1rem;
-
+.App {
+  display: flex;
+  flex-direction: column;
 }
+
+.main {
+  min-height: 100%;
+  padding: 6rem 1rem 1rem;
+  background-image: url(../src/assets/1174.png);
+  /* background-image: url(../src/assets/wepik-2022120-222652.png); */
+
+  background-size:400px;
+  
+color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .main {
+    background-size: 250px ;
+  }
+}
+
