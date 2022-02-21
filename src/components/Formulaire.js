@@ -17,6 +17,10 @@ function Formulaire() {
 
             <label htmlFor="telephone">Téléphone</label>
             <input type="number" id="telephone-client" name="telephone" placeholder="06.05.04.03.02" />
+
+            <textarea placeholder="Indiquez vos disponibilités et plage horaire souhaitée"></textarea>
+
+            <input type="submit" value="Envoyer" />
         </form>
     </div>
   )
