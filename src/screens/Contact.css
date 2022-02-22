@@ -1,0 +1,24 @@
+#a-savoir-contact {
+    text-align:center;
+    padding-bottom: 2rem;
+}
+
+.icones-reseaux{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    padding-top: 2rem;
+    
+}
+
+.facebook, .whatsapp {
+    width: auto;
+    height: 55px;
+}
+.insta { height: 60px;}
+.facebook, .insta, .whatsapp {
+    padding: 0 20px;
+}

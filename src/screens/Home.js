@@ -1,9 +1,12 @@
 import React from 'react'
 import './Home.css'
 import coiffeurs from '../assets/3.jpg'
+import Nav from '../components/Nav'
 
 function Home() {
   return (
+    <div>
+<Nav />
     <div className="page">
         <img src={coiffeurs} alt="Coiffeuses" className="bande-photo"/>
       <div className="main home">
@@ -34,6 +37,7 @@ function Home() {
 
         <p>Bonne Visite ! </p>
       </div>
+    </div>
     </div>
   )
 }

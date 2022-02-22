@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/logo-transp.png'
 
 
+
 function Nav() {
 
     const [showLinks, setShowLinks]=useState(false);
@@ -17,6 +18,7 @@ function Nav() {
 console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
 
 
+
   return (
       <div>
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
@@ -26,7 +28,7 @@ console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
         <ul className="navbar_links">
 
             <li className="navbar_item slideInDown-1">
-                <a href="/" className="navbar_link">Accueil</a>
+                <a href="/home" className="navbar_link">Accueil</a>
             </li>
             <li className="navbar_item slideInDown-2">
                 <a href="/le-salon" className="navbar_link">Le salon</a>
@@ -38,14 +40,16 @@ console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
             <a href="/prestations" className="navbar_link ">Prestations</a>
             </li>
             <li className="navbar_item slideInDown-5">
-            <a href="/a-propos" className="navbar_link ">A propos</a>
+            <a href="/contact" className="navbar_link ">Contact</a>
             </li>
 
         </ul>
         <button className="navbar_burger" onClick={handleShowLinks}>
             <span className="burger-bar"></span>
         </button>
-        <Link to="/contact" className="navbar_link btn-rdv">Prendre un rendez-vous</Link>
+        {/* <Link to="/contact" className="navbar_link btn-rdv">Prendre un rendez-vous</Link> */}
+        <a href="tel:3949" className="navbar_link btn-rdv" title="Si tu cliques ici,
+         tu risques de perdre ton temps 20minutes..Je t'aurais prévenu :D ">Appeler le salon ?</a>
     </nav>
     </div>
   )

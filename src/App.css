@@ -61,9 +61,9 @@ a {
 .main {
   min-height: 100vh;
   /* padding: 1rem 1rem 1rem; */
-  background-image: url(../src/assets/1174.png);
   /* background-image: url(../src/assets/wepik-2022120-222652.png); */
   padding: 91px 14% 91px 14%;
+  background-image: url(../src/assets/1174.png);
 
   background-size:400px;
   

@@ -1,0 +1,88 @@
+.page-welcome{
+    background-image: url(../assets/1174.png);
+    background-size:400px;min-height: 100vh;
+height: 100vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;}
+
+.top-welcome{
+height: 15vh;
+background: rgb(0,0,0);
+background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+width: 100%;
+}
+
+.bottom-welcome{
+    height: 15vh;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+
+}
+
+
+.logo-welcome-page {
+    height: 125px;
+    image-resolution: 350dpi;
+    margin: 20px 0;
+
+    animation: shake 1s cubic-bezier(.36,.07,.19,.97) infinite both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+
+.logo-welcome-page:hover{
+    cursor: pointer;
+box-shadow: 0px 0px 1000px 5px #a27e40;
+border-radius: 50%;
+    height: 150px;
+    animation : none;
+
+
+}
+
+.AdelineCoiffureLogo{
+    cursor: pointer;
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 550;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AdelineCoiffureLogo:hover {
+    color: #a27e40
+
+}
+
+

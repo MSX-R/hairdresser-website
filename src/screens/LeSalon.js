@@ -1,9 +1,12 @@
 import React from 'react'
 import './LeSalon.css'
-import Salon from '../assets/salon.jpg' 
+import Salon from '../assets/salon.jpg'
+import Nav from '../components/Nav' 
 
 function LeSalon() {
   return (
+    <div>
+      <Nav />
     <div className="page">
       <img src={Salon} alt="salon"className="bande-photo" />
     <div className="main home">
@@ -27,6 +30,7 @@ function LeSalon() {
     <h3>Des surprises à dénicher</h3>
     <p>Lors de votre visite, n’oubliez pas de jeter un œil sur nos rayonnages. Bon nombre de produits capillaires sont à votre disposition ainsi que certaines références de maquillage.</p>
     <p>Et pour parfaire votre tenue, pourquoi ne pas vous offrir un nouveau sac en main ? Nous avons quelques modèles en stock qui pourraient vous plaire !</p></div>
+    </div>
     </div>
   )
 }
