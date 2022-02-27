@@ -30,7 +30,7 @@ width: 100%;
 
 
 .logo-welcome-page {
-    height: 125px;
+    height: 170px;
     image-resolution: 350dpi;
     margin: 20px 0;
 
@@ -59,19 +59,10 @@ width: 100%;
   }
 
 
-.logo-welcome-page:hover{
-    cursor: pointer;
-box-shadow: 0px 0px 1000px 5px #a27e40;
-border-radius: 50%;
-    height: 150px;
-    animation : none;
 
-
-}
 
 .AdelineCoiffureLogo{
     cursor: pointer;
-
     color: white;
     font-size: 1.5rem;
     font-weight: 550;
@@ -81,8 +72,14 @@ border-radius: 50%;
 }
 
 .AdelineCoiffureLogo:hover {
-    color: #a27e40
+    color: #a27e40;
+    cursor: pointer;
 
 }
+.nom-entreprise-logo, ville-logo {
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-
+.ville-logo{
+  font-size: 1rem;
+}

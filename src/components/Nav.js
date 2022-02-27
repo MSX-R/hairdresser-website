@@ -3,7 +3,7 @@ import './Nav.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
 
-import logo from '../assets/logo-transp.png'
+import logo from '../assets/Logo/logo-blanc-or.png'
 
 
 
@@ -48,8 +48,7 @@ console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
             <span className="burger-bar"></span>
         </button>
         {/* <Link to="/contact" className="navbar_link btn-rdv">Prendre un rendez-vous</Link> */}
-        <a href="tel:3949" className="navbar_link btn-rdv" title="Si tu cliques ici,
-         tu risques de perdre ton temps 20minutes..Je t'aurais prévenu :D ">Appeler le salon ?</a>
+        <a href="tel:3949" className="navbar_link btn-rdv">Réservation par téléphone</a>
     </nav>
     </div>
   )

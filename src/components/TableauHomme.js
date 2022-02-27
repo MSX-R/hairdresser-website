@@ -2,7 +2,7 @@ import React from 'react'
 // import './TableauHomme.css'
 
 function TableauHomme() {
-  const TableauHomme = "Homme"
+  const TableauHomme = "HOMME"
     const datasHomme = [{
         Prestation: 'Shampooing coupe coiffage',
         Prix: '23€',
@@ -24,7 +24,7 @@ function TableauHomme() {
         <div>
         <div className="composant-tableau">
                     <h2>{TableauHomme}</h2>
-        <table className='table table-bordered'>
+        <table className='table'>
           <thead className="border-thead">
           <tr className="titres-th">
                 <th className="colonne-prestations">Prestations</th>

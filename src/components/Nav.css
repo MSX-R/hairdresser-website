@@ -7,9 +7,10 @@
     width: 100%;
     height: 100px;
     padding : 1rem;
+    color: #fff;
     background: #0d0d0d ;
     border-bottom: 2px solid #a27e40;
-    color: #fff;
+    
 }
 
 .navbar_links{
@@ -214,3 +215,7 @@ right: 1rem;
 
 
 }
+
+
+
+   

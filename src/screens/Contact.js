@@ -2,10 +2,12 @@ import React from 'react'
 import './Contact.css'
 import Formulaire from '../components/Formulaire'
 import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 // 
-import Facebook from '../assets/facebook.png'
-import Instagram from '../assets/insta.png'
-import Whatsapp from '../assets/whatsapp.png'
+import Facebook from '../assets/SocialMedia/BlackGold/BG-fb.svg'
+import Instagram from '../assets/SocialMedia/BlackGold/BG-insta.svg'
+import Whatsapp from '../assets/SocialMedia/BlackGold/BG-tel.svg'
+import Email from '../assets/SocialMedia/BlackGold/BG-mail.svg'
 
 // 
 
@@ -22,17 +24,22 @@ function Contact() {
 
         <p id="a-savoir-contact"><u>A savoir :</u> Nous proposons des prestations sans RDV tous les matins de 9h à 12h30.</p>
         
-        <h3>Vous souhaitez nous suivre sur les réseaux ? </h3>
-        <p>Rejoignez-nous et suivez notre compte pour être tenu au courant des dernieres nouvelles du salon, de nos mises à jour concernant la galerie, de nos offres exceptionnelles et bien d'autres choses.. </p>
+        <h3>Vous souhaitez nous suivre sur les réseaux ou tout simplement nous contacter ? </h3>
+        <p>Sachez que vous pouvez suivre notre salon de coiffure sur Facebook ainsi que sur Instagram. Cela vous permettra de rester informé des dernieres nouvelles du salon, de nos mises à jour concernant la galerie, de nos offres exceptionnelles et bien d'autres choses.. </p>
+        <p>Pour toute demande spécifique, nous vous invitons à nous contacter par email.
+          Si vous souhaitez prendre rendez-vous, n'hésitez surtout pas à nous appeler. Nous nous ferons un plaisir de donner suite à votre demande après consultation en direct de notre planning de la semaine.</p>
 
         <div className="icones-reseaux">
-<img src={Instagram} alt="Instagram" className="insta" />
-<img src={Facebook} alt="Facebook" className="facebook" />
-<img src={Whatsapp} alt="Whatsapp" className="whatsapp" />
+        
+        <a href="https://www.instagram.com/"><img src={Instagram} alt="Instagram" className="insta" /></a>
+        <a href="https://www.facebook.com/"><img src={Facebook} alt="Facebook" className="facebook" /></a>
+        <a href="tel:3949"><img src={Whatsapp} alt="Whatsapp" className="whatsapp" /></a>
+        <a href="mailto: adelinecoiffure@gmail.com"><img src={Email} alt="Email" className="email" /></a>
         </div>
 
         
       </div>
+      <Footer />
       </div>
   )
 }

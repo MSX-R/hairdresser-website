@@ -12,7 +12,7 @@ function LeSalon() {
     <div className="main home">
     <h1>Quelques mots sur votre salon de coiffure</h1>
 
-    <p>Fort de l’expérience de notre gérante, le salon Adeline Coiffure est heureux de vous accueillir en vue de réaliser les colorations et autres coupes de cheveux dont vous rêvez.</p>
+    <p>Fort de l’expérience de notre gérante, l'Atelier d'Adeline est heureux de vous accueillir en vue de réaliser les colorations et autres coupes de cheveux dont vous rêvez.</p>
     <p>Coiffeurs pour femmes, hommes et enfants, nous sommes à l’écoute de vos besoins et mettrons nos compétences à votre service pour vous satisfaire.
 </p>
     

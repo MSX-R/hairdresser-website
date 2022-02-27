@@ -3,7 +3,7 @@
 /* Code couleur à mettre en variable
 
 Couleur barre nav : #0d0d0d
-Couleur bouton titre , soulignement encadrement,  : #a27e40;
+Couleur bouton titre , soulignement encadrement,  :#a27e40 ;
 couleur ecriture paragraphe et icones contact 3 : #fff
 https://taylortaylorlondon.com/ INSPIRATION
 */
@@ -51,6 +51,7 @@ ul {
 
 a {
   text-decoration: none;
+  margin: 0;
 }
 
 .App {
@@ -68,13 +69,14 @@ a {
   background-size:400px;
   
 color: white;
+/* border: 2px solid red; */
 }
 
 @media screen and (max-width: 800px) {
   .main {
     background-size: 250px ;
     /* padding-top: 91px; A remettre au besoin*/ 
-    padding: 91px 1rem 1rem 1rem;
+    padding: 91px 1rem 91px 1rem;
   }
 }
 

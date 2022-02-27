@@ -3,7 +3,7 @@ import React from 'react'
 // Infos recupérées sur https://www.salon-scm.com/tarifs-coiffeur-valbonne.php
 
 function TableauDames() {
-  const TableauDames = "Dame"
+  const TableauDames = "FEMME"
     const datasDames = [{
         Prestation: 'Shampooing coupe brushing',
         Prix: '38€',
@@ -49,7 +49,7 @@ function TableauDames() {
         <div>
         <div className="composant-tableau">
                     <h2>{TableauDames}</h2>
-        <table className='table table-bordered'>
+        <table className='table'>
           <thead className="border-thead">
           <tr className="titres-th">
                 <th className="colonne-prestations">Prestations</th>

@@ -10,7 +10,7 @@ function Home() {
     <div className="page">
         <img src={coiffeurs} alt="Coiffeuses" className="bande-photo"/>
       <div className="main home">
-        <h1>Salon de coiffure sur Antibes</h1>
+        <h1>L'ATELIER D'ADELINE - Antibes</h1>
               <p>Confiez la beauté de vos cheveux à vos coiffeurs du salon Adeline Coiffure.</p> 
               <p>À l’écoute de vos besoins, notre équipe s’attache à vous fournir les meilleurs services pour une coiffure tendance et naturelle !</p>
         <h2>Nos prestations sur-mesure, pour qui ?
@@ -25,7 +25,7 @@ function Home() {
 
         <h3>Un grand évènement se profile ?</h3>
         <p>Vous êtes convié à une cérémonie ? Vous vous mariez très bientôt ?</p>
-        <p>Chez Adeline, nous sommes là pour vous orienter vers la coiffure qui s’harmonisera au mieux à la fois avec la forme de votre visage et la tenue que vous porterez. </p>
+        <p>A l'Atelier d'Adeline, nous sommes là pour vous orienter vers la coiffure qui s’harmonisera au mieux à la fois avec la forme de votre visage et la tenue que vous porterez. </p>
         <p>Pensez à demander au plus vite un rendez-vous afin de définir les caractéristiques de votre chignon chic, de votre tresse bohème ou de vos boucles hollywoodiennes !</p>
 
 
