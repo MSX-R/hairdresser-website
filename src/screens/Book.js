@@ -5,6 +5,8 @@ import JSF from "../assets/JSON/coupeFemme.json"
 import JSK from "../assets/JSON/coupeKids.json"
 // A VOIR = https://designcode.io/react-hooks-handbook-load-local-data
 import './Book.css'
+import Footer from "../components/Footer";
+
 
 function Book() {
 
@@ -13,7 +15,7 @@ function Book() {
   return (
 <div>
   <Nav />
-  <div className="main">
+  <div className="main withoutband">
     <h1>La Hair'Style Gallery</h1>
     <p>Dans cette partie, vous retrouverez quelques inspirations provenants de coupes réalisées sur des clients de notre salon.</p>
 
@@ -52,6 +54,7 @@ function Book() {
     </div>
 
   </div>
+  <Footer />
 </div>
 
   )}

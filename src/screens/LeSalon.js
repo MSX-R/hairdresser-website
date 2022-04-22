@@ -2,6 +2,8 @@ import React from 'react'
 import './LeSalon.css'
 import Salon from '../assets/salon.jpg'
 import Nav from '../components/Nav' 
+import Footer from "../components/Footer";
+
 
 function LeSalon() {
   return (
@@ -31,6 +33,7 @@ function LeSalon() {
     <p>Lors de votre visite, n’oubliez pas de jeter un œil sur nos rayonnages. Bon nombre de produits capillaires sont à votre disposition ainsi que certaines références de maquillage.</p>
     <p>Et pour parfaire votre tenue, pourquoi ne pas vous offrir un nouveau sac en main ? Nous avons quelques modèles en stock qui pourraient vous plaire !</p></div>
     </div>
+    <Footer />
     </div>
   )
 }

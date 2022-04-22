@@ -7,6 +7,20 @@ justify-content: space-between;
 align-items: center;
 flex-direction: column;}
 
+.WelcomeConnexion{
+position: absolute;
+top: 10px;
+right: 10px;
+color: white;
+cursor: pointer;
+font-weight: bold;
+}
+
+.WelcomeConnexion:hover{
+color: #a27e40;
+
+}
+
 .top-welcome{
 height: 15vh;
 background: rgb(0,0,0);

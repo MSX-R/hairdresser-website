@@ -25,6 +25,11 @@ console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
     <Link to="/">
         <img src={logo} alt="zzz" className="navbar_logo"/>
         </Link>
+        
+        <button className="navbar_burger" onClick={handleShowLinks}>
+            <span className="burger-bar"></span>
+        </button>
+        
         <ul className="navbar_links">
 
             <li className="navbar_item slideInDown-1">
@@ -43,12 +48,9 @@ console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
             <a href="/contact" className="navbar_link ">Contact</a>
             </li>
 
-        </ul>
-        <button className="navbar_burger" onClick={handleShowLinks}>
-            <span className="burger-bar"></span>
-        </button>
+        
         {/* <Link to="/contact" className="navbar_link btn-rdv">Prendre un rendez-vous</Link> */}
-        <a href="tel:3949" className="navbar_link btn-rdv">Réservation par téléphone</a>
+        <a href="https://www.planity.com/coiffeur/gp_8221e406cabc92bbf3dfb9d8f9f7bff3" className="navbar_link btn-rdv">Prendre un RDV en ligne</a></ul>
     </nav>
     </div>
   )

@@ -29,3 +29,15 @@ container-form button {
     border-radius: 3px;
     cursor: pointer;
 }
+
+#btnSubmit{
+background-color: #0d0d0d;
+color: #fff;
+border: 1px solid #fff;
+}
+
+#btnSubmit:hover {
+    background-color: #a27e40;
+    color: #fff;
+    border: 1px solid #fff;
+    }

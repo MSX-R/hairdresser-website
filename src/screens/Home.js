@@ -2,6 +2,8 @@ import React from 'react'
 import './Home.css'
 import coiffeurs from '../assets/3.jpg'
 import Nav from '../components/Nav'
+import Footer from "../components/Footer";
+
 
 function Home() {
   return (
@@ -10,7 +12,7 @@ function Home() {
     <div className="page">
         <img src={coiffeurs} alt="Coiffeuses" className="bande-photo"/>
       <div className="main home">
-        <h1>L'ATELIER D'ADELINE - Antibes</h1>
+        <h1>L'ATELIER D'ADELINE</h1>
               <p>Confiez la beauté de vos cheveux à vos coiffeurs du salon Adeline Coiffure.</p> 
               <p>À l’écoute de vos besoins, notre équipe s’attache à vous fournir les meilleurs services pour une coiffure tendance et naturelle !</p>
         <h2>Nos prestations sur-mesure, pour qui ?
@@ -38,6 +40,7 @@ function Home() {
         <p>Bonne Visite ! </p>
       </div>
     </div>
+    <Footer />
     </div>
   )
 }
