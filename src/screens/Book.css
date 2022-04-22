@@ -1,0 +1,42 @@
+.withoutband {
+    padding: 160px 14% 60px 14%;
+}
+
+.fond-diff {
+    border: 2px solid #a27e40;
+    background-color: #0d0d0d9a;
+    margin:4rem 0;
+
+}
+
+.albumm {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    }
+
+.shooting-card {
+    border: 2px solid #a27e408a;
+    padding: 1.5rem;
+    margin: 20px auto;
+    width: 230px;
+    height: 280px;
+    background-color: #0d0d0d;
+    /* background: rgb(243, 243, 243) ; */
+    
+
+    /* background-image: url(../assets/1174.png);
+
+    background-size:200px;     */
+  }
+
+.picture-book{
+    height: 100%;
+    max-width: 100%;
+    width: 100vw;
+}
+
+
+

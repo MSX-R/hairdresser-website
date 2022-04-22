@@ -1,27 +1,32 @@
 import './App.css';
-import Nav from './components/Nav';
+import { Routes, Route } from "react-router-dom";
+// import des pages
+import Home from './screens/Home';
+import LeSalon from './screens/LeSalon';
+import Book from './screens/Book';
+import Prestations from './screens/Prestations';
+import Contact from './screens/Contact';
+// 
+import WelcomePage from './screens/WelcomePage';
+import Authentification from './screens/Authentification';
+// 
+// import Modal from './components/Modal';
+//
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <main className="main">
-        <h1>Accueil</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptatibus, aliquam incidunt rem labore placeat. Soluta esse ipsa saepe, magnam, accusamus quaerat suscipit vel optio sunt nisi adipisci corporis. Iusto!
-        </p>
-      </main>
+      {/* <Modal /> A REACTIVER SI BOUTON OK NAV CONTACT*/}
+      <Routes>
+        <Route path="/Home" element={<Home />} />
+        <Route path="/le-salon" element={<LeSalon />} />
+        <Route path="/book" element={<Book />} />
+        <Route path="/prestations" element={<Prestations />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/authentification" element={<Authentification />} />
+        <Route path="/" element={<WelcomePage />} />
+
+      </Routes>
     </div>
   );
 }

@@ -1,0 +1,108 @@
+.footer {
+  border-top: 2px solid #a27e40;
+  background-color: #0d0d0d;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 1rem 0 1rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloc-infospratiques {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-around;
+  margin: 30px 0 30px 0;
+  /* border: 3px solid green; */
+}
+
+.horaires,
+.adresse,
+.contact-direct {
+  padding: 1rem;
+  /* border: 2px solid red; */
+  width: fit-content;
+  font-size: 14px;
+
+}
+
+.bloc-horaires {
+  display: flex;
+  
+}
+
+.horairesjour {
+  padding: 0 1rem;
+}
+
+.mentions-droits {
+  margin-top: 1rem;
+  font-size: 0.6rem;
+}
+
+.footerLinks > a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+}
+
+.footerLinks > a:hover {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+#localisationSalon{
+display: none;
+}
+
+@media screen and (max-width: 1245px) {
+  .bloc-infospratiques {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin: 30px 0 30px 0;
+    /* border: 3px solid green; */
+  }
+}
+@media screen and (max-width: 821px) {
+  .bloc-infospratiques {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    text-align: left;
+    /* border: 3px solid green; */
+  }
+
+  .horaires,
+  .adresse,
+  .contact-direct {
+    padding: 1rem;
+    border: 2px solid #a27e40;
+    width: 100%;
+  }
+
+  .adresse {
+    margin: 30px 0;
+  }
+
+  .mentions-droits {
+    margin-top: 1rem;
+    font-size: 0.5rem;
+  }
+
+  #localisationSalon{
+    display: block;
+    width:100%;
+    height:300px;
+    border:3px solid #fff;
+    padding: 2px ;
+  }
+}
+
