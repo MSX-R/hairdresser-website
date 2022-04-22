@@ -69,7 +69,7 @@ function Formulaire() {
         <label htmlFor="message">Votre demande</label>
 
         <textarea
-          placeholder="N'hésitez pas à préciser le type de soin que vous souhaitez ainsi que le jour souhaité"
+          placeholder="N'hésitez pas à préciser le type de soin que vous souhaitez ainsi que le jour de rendez-vous désiré"
           name="user_message"
         ></textarea>
 
