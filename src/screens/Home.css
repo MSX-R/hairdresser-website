@@ -28,6 +28,20 @@ text-align:left;
     text-align: justify;
 }
 
+.home-note {
+    padding-top: 40px;
+}
+
+.link-horaires {
+    color: #c29d5e;
+    font-weight: bold;
+}
+
+.link-horaires:hover {
+    color: #ddc292;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 800px) {
 
 

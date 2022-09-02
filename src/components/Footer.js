@@ -4,7 +4,7 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="horaires-footer">
         <div className="bloc-infospratiques">
             <div className="horaires">
                 <h4>Horaires</h4>

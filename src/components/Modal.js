@@ -9,8 +9,6 @@ const toggleModal = () => {
     setModal(!modal)
 }
 
-// Je VEUX FAIRE DU BOUTON DANS LA NAV, un MODAL en reprenant ce fonctionnement.
-// Voir dernier bouton dans la nav ! et remonter le props et declaration
 
   return (
     <>

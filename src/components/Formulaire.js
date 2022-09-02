@@ -9,9 +9,9 @@ function Formulaire() {
     emailjs
       .sendForm(
         "service_akncxed",
-        "template_hojc46n",
+        "template_lww9tbt",
         e.target,
-        "0ItmtyYDKo0ml59QP"
+        "u4Bsdgwe03YEAP_7F"
       )
       .then(
         (result) => {

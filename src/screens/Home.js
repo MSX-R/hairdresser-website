@@ -1,3 +1,86 @@
+import React from "react";
+import "./Home.css";
+import coiffeurs from "../assets/3.jpg";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+
+function Home() {
+  return (
+    <div>
+      <Nav />
+      <div className="page">
+        <img src={coiffeurs} alt="Coiffeuses" className="bande-photo" />
+        <div className="main home">
+          <h1>L'ATELIER D'ADELINE</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            qui corporis illo. Lorem ipsum dolor sit amet consectetur.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat
+            corrupti qui error assumenda soluta autem officiis distinctio
+            necessitatibus ipsum. Lorem ipsum dolor sit.
+          </p>
+          <h2>Nos prestations sur-mesure, pour qui ?</h2>
+          <h3>Femmes et hommes</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+            optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Recusandae, a fugit possimus voluptatum exercitationem rem libero ad
+            quos aliquam quibusdam, beatae laboriosam quo, eos natus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+            dignissimos maiores harum ea laborum voluptatem, cumque doloremque
+            porro dolore! Cum pariatur necessitatibus tempora, hic quam
+            explicabo fugiat ipsam soluta cumque illum .
+          </p>
+          <h3>Enfants</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe
+            atque sit asperiores quia nihil odio magnam molestiae, commodi,
+            placeat tempore voluptates omnis, in quas officiis.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            dolore provident corrupti, nesciunt ab beatae magni voluptatibus
+            omnis assumenda, incidunt voluptatum a minus nihil exercitationem,
+            laborum deserunt officiis velit ipsam eveniet culpa et autem
+            deleniti?
+          </p>
+          <h3>Un grand évènement se profile ?</h3>
+          <p>
+            Vous êtes convié à une cérémonie ? Vous vous mariez prochainement ?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi
+            laboriosam reiciendis iusto qui quisquam molestias soluta doloremque
+            cupiditate autem consequuntur ipsum similique repellat quas
+            architecto obcaecati ratione, deleniti eum? Quibusdam facilis dolore
+            enim ab alias nostrum quod cumque rerum sunt eaque quis officiis
+            doloribus optio est provident numquam, architecto possimus impedit
+            corrupti velit? Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Ratione, exercitationem.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quae
+            iusto autem et, molestiae ab eum consectetur !.
+          </p>
+          <h3 className="home-note"><u>A noter :</u></h3>{" "}
+          <p>
+            Votre salon est ouvert du Lundi au Samedi ( <a href="#horaires-footer" className="link-horaires"> Horaires d'ouverture disponibles en bas de page</a> ).
+          </p>
+          <p>Bonne Visite ! </p>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+}
+
+export default Home;
+
+/* VERSION 2
 import React from 'react'
 import './Home.css'
 import coiffeurs from '../assets/3.jpg'
@@ -46,3 +129,5 @@ function Home() {
 }
 
 export default Home
+
+*/

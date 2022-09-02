@@ -1,3 +1,89 @@
+import React from "react";
+import "./LeSalon.css";
+import Salon from "../assets/salon.jpg";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+
+function LeSalon() {
+  return (
+    <div>
+      <Nav />
+      <div className="page">
+        <img src={Salon} alt="salon" className="bande-photo" />
+        <div className="main home">
+          <h1>Quelques mots sur votre salon de coiffure</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            quaerat ex illum, natus nostrum veritatis voluptates magnam? Velit
+            ut a aut maiores! At, tempore aspernatur?
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ad ipsa
+            obcaecati delectus. Repellat fugit quasi pariatur!
+          </p>
+
+          <h3>Une entreprise familiale</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, fugit
+            corrupti alias, cumque perferendis distinctio a assumenda quis
+            debitis culpa ullam sed suscipit doloremque facere eligendi tempore,
+            ex libero.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi porro
+            illum iste, necessitatibus praesentium eveniet quia?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
+            officia laborum quam harum vero? Omnis enim necessitatibus maiores
+            voluptate amet deleniti aliquid odio et, adipisci, natus fugiat,
+            dolorem quia minima? Velit ea quibusdam tempora. Maiores, aspernatur
+            cupiditate.
+          </p>
+
+          <h3>
+            Des coiffeurs qualifiés et reconnus dans le milieu de la coiffure
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam at
+            doloribus sapiente in exercitationem. Ad, in commodi? Numquam sit
+            voluptate nostrum quas consequatur deleniti, iste dolore qui aliquam
+            alias maiores optio quam itaque sapiente, quis recusandae saepe
+            dolores pariatur! Ducimus, ipsam quis?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            earum nam inventore mollitia itaque consequuntur corrupti dolorum
+            distinctio enim, quibusdam deleniti iusto incidunt aliquid. Eos odio
+            iusto vel. Id tempora nisi ipsa, repellat eius incidunt numquam iure
+            modi iste culpa expedita assumenda officia perspiciatis suscipit
+            mollitia.
+          </p>
+
+          <h3>A l'écoute de vos envies</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque at
+            maiores ex sapiente, aut ullam, obcaecati eius facere aliquid
+            dolorum possimus totam, perferendis facilis veniam ea accusantium
+            error beatae.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            praesentium exercitationem facilis in mollitia minima facere
+            quisquam.
+          </p>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
+}
+
+export default LeSalon;
+
+/* VERSION 2
+
 import React from 'react'
 import './LeSalon.css'
 import Salon from '../assets/salon.jpg'
@@ -38,4 +124,4 @@ function LeSalon() {
   )
 }
 
-export default LeSalon
+export default LeSalon*/
