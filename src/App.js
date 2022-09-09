@@ -6,7 +6,6 @@ import LeSalon from "./screens/LeSalon";
 import Book from "./screens/Book";
 import Prestations from "./screens/Prestations";
 import Contact from "./screens/Contact";
-//
 import WelcomePage from "./screens/WelcomePage";
 // import Authentification from "./screens/Authentification";
 //

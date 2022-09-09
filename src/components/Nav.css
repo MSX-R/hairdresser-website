@@ -11,6 +11,7 @@
   color: #fff;
   background: #0d0d0d;
   border-bottom: 2px solid #a27e40;
+  z-index: 10;
 }
 
 .navbar_links {
@@ -48,15 +49,13 @@
   border: 1.5px solid #fff;
   margin-left: 1rem;
   color: white;
-
 }
 
 .btn-rdv:hover {
-  color : #a27e40;
+  color: #a27e40;
   background: #fff;
   font-weight: bold;
   border-color: #a27e40;
-
 }
 
 .navbar_logo {
