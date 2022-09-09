@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/hairdresser/static/css/main.fc8e47b4.css",
-    "main.js": "/hairdresser/static/js/main.c4e9a238.js",
-    "static/media/1174.png": "/hairdresser/static/media/1174.2386132f0f15d9b52431.png",
-    "static/media/3.jpg": "/hairdresser/static/media/3.ca104972c6459a103abe.jpg",
-    "static/media/salon.jpg": "/hairdresser/static/media/salon.15763a2202e27be40561.jpg",
-    "static/media/logo-blanc-or.png": "/hairdresser/static/media/logo-blanc-or.50b5c2e67e9121febbec.png",
-    "static/media/BG-tel.svg": "/hairdresser/static/media/BG-tel.a267a96846b6f3463e4324b836deed4f.svg",
-    "static/media/BG-insta.svg": "/hairdresser/static/media/BG-insta.9a8b1d86b3b133007bafacca2421d835.svg",
-    "static/media/BG-mail.svg": "/hairdresser/static/media/BG-mail.1dce26cce2c1c04a74497370d8a4236a.svg",
-    "static/media/BG-fb.svg": "/hairdresser/static/media/BG-fb.2cc499cececff3294174296995a13b4f.svg",
-    "index.html": "/hairdresser/index.html",
-    "main.fc8e47b4.css.map": "/hairdresser/static/css/main.fc8e47b4.css.map",
-    "main.c4e9a238.js.map": "/hairdresser/static/js/main.c4e9a238.js.map"
+    "main.css": "/hairdresser-website/static/css/main.292be678.css",
+    "main.js": "/hairdresser-website/static/js/main.d5d39720.js",
+    "static/media/1174.png": "/hairdresser-website/static/media/1174.2386132f0f15d9b52431.png",
+    "static/media/3.jpg": "/hairdresser-website/static/media/3.ca104972c6459a103abe.jpg",
+    "static/media/salon.jpg": "/hairdresser-website/static/media/salon.15763a2202e27be40561.jpg",
+    "static/media/logo-blanc-or.png": "/hairdresser-website/static/media/logo-blanc-or.50b5c2e67e9121febbec.png",
+    "static/media/BG-tel.svg": "/hairdresser-website/static/media/BG-tel.a267a96846b6f3463e4324b836deed4f.svg",
+    "static/media/BG-insta.svg": "/hairdresser-website/static/media/BG-insta.9a8b1d86b3b133007bafacca2421d835.svg",
+    "static/media/BG-mail.svg": "/hairdresser-website/static/media/BG-mail.1dce26cce2c1c04a74497370d8a4236a.svg",
+    "static/media/BG-fb.svg": "/hairdresser-website/static/media/BG-fb.2cc499cececff3294174296995a13b4f.svg",
+    "index.html": "/hairdresser-website/index.html",
+    "main.292be678.css.map": "/hairdresser-website/static/css/main.292be678.css.map",
+    "main.d5d39720.js.map": "/hairdresser-website/static/js/main.d5d39720.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc8e47b4.css",
-    "static/js/main.c4e9a238.js"
+    "static/css/main.292be678.css",
+    "static/js/main.d5d39720.js"
   ]
 }
