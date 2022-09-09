@@ -19,12 +19,12 @@ function App() {
       {/* <Modal /> A REACTIVER SI BOUTON OK NAV CONTACT*/}
       <Routes>
         <Route path="/" element={<WelcomePage />} />
-        <Route path="/hairdresser-website/accueil" element={<Home />} />
-        <Route path="/hairdresser-website/le-salon" element={<LeSalon />} />
-        <Route path="/hairdresser-website/book-photo" element={<Book />} />
-        <Route path="/hairdresser-website/prestations" element={<Prestations />} />
-        <Route path="/hairdresser-website/contact" element={<Contact />} />
-        <Route path="/hairdresser-website/authentification" element={<Authentification />} />
+        <Route path="/accueil" element={<Home />} />
+        <Route path="/le-salon" element={<LeSalon />} />
+        <Route path="/book-photo" element={<Book />} />
+        <Route path="/prestations" element={<Prestations />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/authentification" element={<Authentification />} />
       </Routes>
     </div>
   );

@@ -10,7 +10,7 @@ function WelcomePage() {
       {/* <Link to="/authentification" className="WelcomeConnexion">Connexion</Link> */}
       <div className="top-welcome"></div>
 
-      <Link to="/hairdresser-website/accueil">
+      <Link to="/accueil">
         <div
           className="AdelineCoiffureLogo"
           title="Cliquez pour entrer sur le site"
