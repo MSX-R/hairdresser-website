@@ -1,7 +1,7 @@
 import React from 'react'
 import './Nav.css'
 import { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import logo from '../assets/Logo/logo-blanc-or.png'
 
@@ -22,30 +22,30 @@ console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
   return (
       <div>
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-    <Link to="/">
+    <NavLink to="/">
         <img src={logo} alt="zzz" className="navbar_logo"/>
-        </Link>
+        </NavLink>
         
-        <button className="navbar_burger" onClick={handleShowLinks}>
+        <button className="navbar_burger" onClick={handleShowNavLinks}>
             <span className="burger-bar"></span>
         </button>
         
-        <ul className="navbar_links">
+        <ul className="navbar_NavLinks">
 
             <li className="navbar_item slideInDown-1">
-                <a href="/home" className="navbar_link">Accueil</a>
+                <NavLink href="/accueil" className="navbar_NavLink">Accueil</NavLink>
             </li>
             <li className="navbar_item slideInDown-2">
-                <a href="/le-salon" className="navbar_link">Le salon</a>
+                <NavLink href="/le-salon" className="navbar_NavLink">Le salon</NavLink>
             </li>
             <li className="navbar_item slideInDown-3">
-                <a href="/book" className="navbar_link ">Book</a>
+                <NavLink href="/book-photo" className="navbar_NavLink ">Notre  Book</NavLink>
             </li>
             <li className="navbar_item slideInDown-4">
-            <a href="/prestations" className="navbar_link ">Prestations</a>
+            <NavLink href="/prestations" className="navbar_NavLink ">Nos Prestations</NavLink>
             </li>
             <li className="navbar_item slideInDown-5">
-            <a href="/contact" className="navbar_link ">Contact</a>
+            <NavLink href="/contact" className="navbar_NavLink ">Contact</NavLink>
             </li>
 
         

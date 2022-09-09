@@ -18,9 +18,9 @@ function App() {
     <div className="App">
       {/* <Modal /> A REACTIVER SI BOUTON OK NAV CONTACT*/}
       <Routes>
-        <Route path="/Home" element={<Home />} />
+        <Route path="/accueil" element={<Home />} />
         <Route path="/le-salon" element={<LeSalon />} />
-        <Route path="/book" element={<Book />} />
+        <Route path="/book-photo" element={<Book />} />
         <Route path="/prestations" element={<Prestations />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/authentification" element={<Authentification />} />
