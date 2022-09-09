@@ -26,7 +26,7 @@ console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
         <img src={logo} alt="zzz" className="navbar_logo"/>
         </NavLink>
         
-        <button className="navbar_burger" onClick={handleShowNavLinks}>
+        <button className="navbar_burger" onClick={handleShowLinks}>
             <span className="burger-bar"></span>
         </button>
         
