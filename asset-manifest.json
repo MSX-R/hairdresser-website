@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hairdresser-website/static/css/main.292be678.css",
-    "main.js": "/hairdresser-website/static/js/main.8804cb9b.js",
+    "main.css": "/hairdresser-website/static/css/main.628b7a76.css",
+    "main.js": "/hairdresser-website/static/js/main.3587a132.js",
     "static/media/1174.png": "/hairdresser-website/static/media/1174.2386132f0f15d9b52431.png",
     "static/media/3.jpg": "/hairdresser-website/static/media/3.ca104972c6459a103abe.jpg",
     "static/media/salon.jpg": "/hairdresser-website/static/media/salon.15763a2202e27be40561.jpg",
@@ -11,11 +11,11 @@
     "index.html": "/hairdresser-website/index.html",
     "static/media/BG-mail.svg": "/hairdresser-website/static/media/BG-mail.1dce26cce2c1c04a74497370d8a4236a.svg",
     "static/media/BG-fb.svg": "/hairdresser-website/static/media/BG-fb.2cc499cececff3294174296995a13b4f.svg",
-    "main.292be678.css.map": "/hairdresser-website/static/css/main.292be678.css.map",
-    "main.8804cb9b.js.map": "/hairdresser-website/static/js/main.8804cb9b.js.map"
+    "main.628b7a76.css.map": "/hairdresser-website/static/css/main.628b7a76.css.map",
+    "main.3587a132.js.map": "/hairdresser-website/static/js/main.3587a132.js.map"
   },
   "entrypoints": [
-    "static/css/main.292be678.css",
-    "static/js/main.8804cb9b.js"
+    "static/css/main.628b7a76.css",
+    "static/js/main.3587a132.js"
   ]
 }
