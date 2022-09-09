@@ -33,16 +33,16 @@ console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
         <ul className="navbar_NavLinks">
 
             <li className="navbar_item slideInDown-1">
-                <NavLink href="/accueil" className="navbar_NavLink">Accueil</NavLink>
+                <NavLink to="/accueil" className="navbar_NavLink">Accueil</NavLink>
             </li>
             <li className="navbar_item slideInDown-2">
-                <NavLink href="/le-salon" className="navbar_NavLink">Le salon</NavLink>
+                <NavLink to="/le-salon" className="navbar_NavLink">Le salon</NavLink>
             </li>
             <li className="navbar_item slideInDown-3">
-                <NavLink href="/book-photo" className="navbar_NavLink ">Notre  Book</NavLink>
+                <NavLink to="/book-photo" className="navbar_NavLink ">Notre  Book</NavLink>
             </li>
             <li className="navbar_item slideInDown-4">
-            <NavLink href="/prestations" className="navbar_NavLink ">Nos Prestations</NavLink>
+            <NavLink to="/prestations" className="navbar_NavLink ">Nos Prestations</NavLink>
             </li>
             <li className="navbar_item slideInDown-5">
             <NavLink href="/contact" className="navbar_NavLink ">Contact</NavLink>
