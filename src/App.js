@@ -8,7 +8,7 @@ import Prestations from "./screens/Prestations";
 import Contact from "./screens/Contact";
 //
 import WelcomePage from "./screens/WelcomePage";
-import Authentification from "./screens/Authentification";
+// import Authentification from "./screens/Authentification";
 //
 // import Modal from './components/Modal';
 //
@@ -24,7 +24,7 @@ function App() {
         <Route path="/book-photo" element={<Book />} />
         <Route path="/prestations" element={<Prestations />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/authentification" element={<Authentification />} />
+        {/* <Route path="/authentification" element={<Authentification />} /> */}
       </Routes>
     </div>
   );

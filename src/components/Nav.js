@@ -1,7 +1,7 @@
 import React from 'react'
 import './Nav.css'
 import { useState } from 'react'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import logo from '../assets/Logo/logo-blanc-or.png'
 
@@ -22,30 +22,30 @@ console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
   return (
       <div>
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-    <NavLink to="/">
+    <Link to="/">
         <img src={logo} alt="zzz" className="navbar_logo"/>
-        </NavLink>
+        </Link>
         
         <button className="navbar_burger" onClick={handleShowLinks}>
             <span className="burger-bar"></span>
         </button>
         
-        <ul className="navbar_NavLinks">
+        <ul className="navbar_links">
 
             <li className="navbar_item slideInDown-1">
-                <NavLink to="/accueil" className="navbar_NavLink">Accueil</NavLink>
+                <Link to="/accueil" className="navbar_link">Accueil</Link>
             </li>
             <li className="navbar_item slideInDown-2">
-                <NavLink to="/le-salon" className="navbar_NavLink">Le salon</NavLink>
+                <Link to="/le-salon" className="navbar_link">Le salon</Link>
             </li>
             <li className="navbar_item slideInDown-3">
-                <NavLink to="/book-photo" className="navbar_NavLink ">Notre  Book</NavLink>
+                <Link to="/book-photo" className="navbar_link ">Notre  Book</Link>
             </li>
             <li className="navbar_item slideInDown-4">
-            <NavLink to="/prestations" className="navbar_NavLink ">Nos Prestations</NavLink>
+            <Link to="/prestations" className="navbar_link ">Nos Prestations</Link>
             </li>
             <li className="navbar_item slideInDown-5">
-            <NavLink href="/contact" className="navbar_NavLink ">Contact</NavLink>
+            <Link to="/contact" className="navbar_link ">Contact</Link>
             </li>
 
         
