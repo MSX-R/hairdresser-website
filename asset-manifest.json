@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hairdresser-website/static/css/main.292be678.css",
-    "main.js": "/hairdresser-website/static/js/main.a3550639.js",
+    "main.js": "/hairdresser-website/static/js/main.a11c3a5a.js",
     "static/media/1174.png": "/hairdresser-website/static/media/1174.2386132f0f15d9b52431.png",
     "static/media/3.jpg": "/hairdresser-website/static/media/3.ca104972c6459a103abe.jpg",
     "static/media/salon.jpg": "/hairdresser-website/static/media/salon.15763a2202e27be40561.jpg",
@@ -12,10 +12,10 @@
     "static/media/BG-mail.svg": "/hairdresser-website/static/media/BG-mail.1dce26cce2c1c04a74497370d8a4236a.svg",
     "static/media/BG-fb.svg": "/hairdresser-website/static/media/BG-fb.2cc499cececff3294174296995a13b4f.svg",
     "main.292be678.css.map": "/hairdresser-website/static/css/main.292be678.css.map",
-    "main.a3550639.js.map": "/hairdresser-website/static/js/main.a3550639.js.map"
+    "main.a11c3a5a.js.map": "/hairdresser-website/static/js/main.a11c3a5a.js.map"
   },
   "entrypoints": [
     "static/css/main.292be678.css",
-    "static/js/main.a3550639.js"
+    "static/js/main.a11c3a5a.js"
   ]
 }
