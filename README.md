@@ -62,7 +62,4 @@ Il s'agit d'un prototype de site vitrine visant à augmenter la visibilité du p
 
 # Galerie
 
-<img src="https://i.goopics.net/2ictjb.png" alt="Image" style="height:170px">  <img src="https://i.goopics.net/s30xjy.png" alt="Image" style="height:170px"> <img src="https://i.goopics.net/ituure.png" alt="Image" style="height:170px">  
-
-
-<img src="https://i.goopics.net/qsh78e.png" alt="Image" style="height:170px"> <img src="https://i.goopics.net/88ecj8.png" alt="Image" style="height:170px"> <img src="https://i.goopics.net/6rslja.png" alt="Image" style="height:170px"> 
+<img src="https://i.goopics.net/2ictjb.png" alt="Image" style="height:170px">  <img src="https://i.goopics.net/s30xjy.png" alt="Image" style="height:170px"> <img src="https://i.goopics.net/ituure.png" alt="Image" style="height:170px"> <img src="https://i.goopics.net/qsh78e.png" alt="Image" style="height:170px"> <img src="https://i.goopics.net/88ecj8.png" alt="Image" style="height:170px"> <img src="https://i.goopics.net/6rslja.png" alt="Image" style="height:170px"> 
