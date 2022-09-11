@@ -15,7 +15,7 @@ function Nav() {
         setShowLinks(!showLinks);
     }
 
-console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
+console.log(showLinks) ; 
 
 
 
@@ -49,7 +49,6 @@ console.log(showLinks) ; /* Pour verifier que ca passe bien de true a false */
             </li>
 
         
-        {/* <Link to="/contact" className="navbar_link btn-rdv">Prendre un rendez-vous</Link> */}
         <a href="https://www.planity.com/coiffeur/gp_8221e406cabc92bbf3dfb9d8f9f7bff3" className="navbar_link btn-rdv">Prendre un RDV en ligne</a></ul>
     </nav>
     </div>

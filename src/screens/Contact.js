@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Contact.css";
 import Formulaire from "../components/Formulaire";
 import Nav from "../components/Nav";

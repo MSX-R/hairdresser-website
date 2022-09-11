@@ -61,22 +61,14 @@ a {
 
 .main {
   min-height: 100vh;
-  /* padding: 1rem 1rem 1rem; */
-  /* background-image: url(../src/assets/wepik-2022120-222652.png); */
-  
-  /* padding: 110px 14% 110px 14%; */
   background-image: url(../src/assets/1174.png);
-
   background-size:400px;
-  
 color: white;
-/* border: 2px solid red; */
 }
 
 @media screen and (max-width: 800px) {
   .main {
     background-size: 250px ;
-    /* padding-top: 91px; A remettre au besoin*/ 
     padding: 91px 1rem 91px 1rem;
   }
 }
