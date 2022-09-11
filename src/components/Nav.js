@@ -36,7 +36,7 @@ console.log(showLinks) ;
                 <Link to="/accueil" className="navbar_link">Accueil</Link>
             </li>
             <li className="navbar_item slideInDown-2">
-                <Link to="/le-salon" className="navbar_link">Le salon</Link>
+                <Link to="/le-salon" className="navbar_link">Le Salon</Link>
             </li>
             <li className="navbar_item slideInDown-3">
                 <Link to="/book-photo" className="navbar_link ">Notre  Book</Link>
