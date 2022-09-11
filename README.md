@@ -2,7 +2,7 @@
 
 Projet-prototype réalisé par [MSX-R](https://github.com/MSX-R "lien github profile").
 
-> Lien du site déployé : [https://msx-r.github.io/hairdresser-wbesite](https://msx-r.github.io/hairdresser-website)
+> Lien du site déployé : [https://msx-r.github.io/hairdresser-website](https://msx-r.github.io/hairdresser-website)
 
 # En quoi consiste le projet ?
 
