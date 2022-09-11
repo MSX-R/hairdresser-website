@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import Formulaire from "../components/Formulaire";
 import Nav from "../components/Nav";
@@ -53,16 +53,16 @@ function Contact() {
 
         <div className="icones-reseaux">
           <a href="https://www.instagram.com/">
-            <img src={Instagram} alt="Instagram" className="insta" />
+            <img src={Instagram} alt="Instagram" className="insta item-social" />
           </a>
           <a href="https://www.facebook.com/">
-            <img src={Facebook} alt="Facebook" className="facebook" />
+            <img src={Facebook} alt="Facebook" className="facebook item-social" />
           </a>
           <a href="tel:3949">
-            <img src={Whatsapp} alt="Whatsapp" className="whatsapp" />
+            <img src={Whatsapp} alt="Whatsapp" className="whatsapp item-social" />
           </a>
           <a href="mailto: adelinecoiffure@gmail.com">
-            <img src={Email} alt="Email" className="email" />
+            <img src={Email} alt="Email" className="email item-social" />
           </a>
         </div>
       </div>

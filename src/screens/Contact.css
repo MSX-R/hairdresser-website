@@ -20,6 +20,11 @@
     height: 100px;
 }
 
+.item-social:hover {
+    filter:contrast(50%);
+}
+
+
 @media screen and (max-width: 755px) {
 
     .withoutband{

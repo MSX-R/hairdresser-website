@@ -1,13 +1,10 @@
 import React from "react";
 import Nav from "../components/Nav";
-import JSH from "../assets/JSON/coupeHomme.json"; // ICI L IMPORT HOMME
+import JSH from "../assets/JSON/coupeHomme.json"; 
 import JSF from "../assets/JSON/coupeFemme.json";
 import JSK from "../assets/JSON/coupeKids.json";
-// A VOIR = https://designcode.io/react-hooks-handbook-load-local-data
 import "./Book.css";
 import Footer from "../components/Footer";
-
-// NEW
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
@@ -40,7 +37,6 @@ function Book() {
         <div className="composant-tableau fond-diff">
           <h2 className="albumGenre">GALERIE HOMME</h2>
           <div className="album">
-            {/* NEW */}
             <Carousel>
               {JSH.map((slide) => (
                 <div key={slide.id}>
